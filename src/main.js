@@ -2,7 +2,7 @@ function isNumeric(value) {
     return typeof value === 'number' && !isNaN(value);
 }
         function isSpace(value){
-            if(value === ' ' | value === '  ' | value === '   ' | value === ''){
+            if(value === ' ' | value === '  ' | value === '   ' | value === '' | value === null){
                 netMarketingOri = '乱写什么'
             }
         }
